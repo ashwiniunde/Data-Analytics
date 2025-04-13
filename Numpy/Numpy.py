@@ -315,12 +315,21 @@ print("After applying mod function to array",mod_arr)
 from numpy import empty 
 a=empty([3,3])
 print(a)
-
+"""
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+"""
 
 #create zero array
 from numpy import zeros
 a=zeros([3,5])
 print(a)
+"""
+[[0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0.]]
+"""
 
 
 #creaete one array
@@ -342,6 +351,10 @@ print(a2)
 #vertical stack
 a3=vstack((a1,a2))
 print(a3)
+"""
+[[1 2 3]
+ [5 6 7]]
+"""
 print(a3.shape) #(2,3)
 
 ###############################################
@@ -356,6 +369,9 @@ print(a2)
 #creaet horozontal stack
 a3=hstack((a1,a2))
 print(a3)
+"""
+[1 2 3 4 5 6]
+"""
 print(a3.shape)
 
 
